@@ -1,3 +1,3 @@
 ##Trials and Github Practice
 
->Just for my practice of github and markdown
+>Just for a rough idea of my portfolio website
