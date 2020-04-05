@@ -145,5 +145,50 @@ section{
 }
 
 .about-info .downloadbtn{
-	
+	display: inline-block;
+	padding: 15px 35px;
+	background-color: #ffffff10;
+	border: 1px solid #ffffff30;
+	border-radius: 50px;
+	color:#ffffff;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 35px;
+	position: relative;
+	z-index: 999;
+}
+
+.timeline .col{
+	margin: 5px;
+	padding: 25px 5px;
+	border: 1px solid #ffffff30;
+	float: left;
+}
+
+.timeline h6{
+	margin: 15px 0 0;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+.service{
+	width: 60%;
+	margin:	0 auto;
+	padding: 50px 0;
+	text-align: center;
+	z-index: 99;
+}
+
+.service .service-info{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 50px 0;
+}
+
+.service .col{
+	width: 40%;
+	margin: 25px 30px;
+	text-align: center;
 }
