@@ -255,3 +255,16 @@ section{
 	font-size: 16px;
 
 }
+.contact-info .messagefield{
+	height: 200px;
+}
+
+.contact-info .submitButton{
+	background-color: #fff;
+	color: #000;
+	height: 50px;
+	font-weight: 600;
+	font-size: 16px;
+	cursor: pointer;
+	text-transform: uppercase-;
+}
