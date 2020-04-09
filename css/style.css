@@ -35,7 +35,7 @@ html,body {
     color: #fff;
     background-color: black;
 	font-family: 'PT Sans Narrow', sans-serif;
-	
+	overflow-y: unset;
 	
 }
 ol, ul {
