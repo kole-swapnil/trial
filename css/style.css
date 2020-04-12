@@ -256,7 +256,11 @@ section{
 	justify-content: center;
 	margin: 50px 0;
 }
-
+.contact .col{
+	width: 40%;
+	margin: auto 30px;
+	text-align: center;
+}
 .contact-info .textfield{
 	width: 100%;
 	height: 50px;
