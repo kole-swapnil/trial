@@ -392,7 +392,9 @@ section{
 }
 
 @media screen and  (orientation: portrait){
-
+	:root{
+		--app-height: 100%;
+	}
 	html,body {
 		height: 100%;
 		line-height: 1;
@@ -431,6 +433,7 @@ section{
 		transition: -webkit-transform 0.8s ease;
 		transition: transform 0.8s ease;
 		transition: transform 0.8s ease, -webkit-transform 0.8s ease;
+		margin-bottom:30px;
 	  }
 	header{
 		position: absolute;
@@ -458,6 +461,7 @@ section{
 		z-index: 999; 
 	}
 	
+	
 	section{
 		padding: 7.6vh 0;
 		height: 100%;
@@ -483,13 +487,15 @@ section{
 		font-size:7.6vh;
 		text-transform: uppercase;
 		text-shadow: 0 15px 20px #000000b0;
-		margin-bottom: 0;
+		
 		visibility: hidden;
 	}
-	
+	.name{
+		margin-bottom: 100px;
+	}
 	.home h5{
 		background : #000;
-		font-size: 1.3vh;
+		font-size: 1.6vh;
 		text-align: center;
 		padding: 1.3vh 20px;
 		margin: 1.3vh 0 50px;
