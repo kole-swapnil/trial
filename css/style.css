@@ -117,7 +117,7 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items:flex-end;
-	background: url(../images/x.jpg) no-repeat;
+	background: url(../images/q.jpeg) no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-color: #34495e;
@@ -443,13 +443,14 @@ section{
 		text-align: center;
 		padding : 2.2vh 0;
 		z-index : 99;
+		font-size: 40px;
 	}
 	
 	header ul li a{
 		color: #fff;
 		text-transform: uppercase;
 		text-decoration: none;
-		margin:0 40px; 
+		margin:0 32px; 
 		visibility: hidden;
 	}
 	
