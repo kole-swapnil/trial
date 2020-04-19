@@ -530,12 +530,11 @@ section{
 	
 	.about-info p{
 		height:32vh;
-		
 		line-height: 3.5vh;
 		font-size: 2.3vh;
 	}
 	#about-first{
-		height:32vh;
+		height:25vh;
 		line-height: 3.5vh;
 		font-size: 2.3vh;
 	}
@@ -558,6 +557,7 @@ section{
 		margin-top: 0;
 		position: relative;
 		z-index: 999;
+		margin-top: 30px;
 	}
 	
 	.timeline{
@@ -716,6 +716,7 @@ section{
 		position: relative;
 		width: 96%;
 		height: 96%;
+		
 	}
 	.fourth-content .item:ninth-child{
 		display: none;
@@ -732,6 +733,7 @@ section{
 		position: relative;
 		width: 100%;
 		height: 100%;
+		
 	}
 	
 	.fourth-content .item .hover-effect {
