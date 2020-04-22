@@ -418,6 +418,11 @@ iframe{
 	background-color: rgba(0,0,0,1);
     border-color: #ff0062;
 }
+.btn-dark{
+	color: #ffed00;
+	background-color: rgba(0,0,0,1);
+    border-color: #ffed00;
+}
 @media screen and  (orientation: portrait){
 	:root{
 		--app-height: 100%;
@@ -526,7 +531,7 @@ iframe{
 		font-size: 1.6vh;
 		text-align: center;
 		padding: 1.3vh 20px;
-		margin: 1.3vh 0 50px;
+		margin: 1.3vh 0 80px;
 		display: inline-block;
 		letter-spacing: .3vh;
 		border-radius: .3vh;
@@ -703,7 +708,7 @@ iframe{
 	
 	}
 	.contact-info .messagefield{
-		height: 20.3vh;
+		height: 15.3vh;
 	}
 	
 	.contact-info .submitButton{
