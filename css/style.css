@@ -190,6 +190,7 @@ section{
 .timeline{
 	margin-top:50px;
 	display: flex;
+	letter-spacing: 0.02em;
 }
 .timeline .colu{
 	margin: 5px;
@@ -397,11 +398,13 @@ iframe{
 .btn{
 	margin: 0 20px 0 20px;
 	font-size: 15px;
-    text-transform: uppercase;
+	text-transform: uppercase;
+	
 }
 .btn-group{
 	display: flex;
 	margin : auto;
+	z-index:99;
 }
 .btn-info{
 	color: #0fdfff;
@@ -414,14 +417,24 @@ iframe{
     border-color: #0ae73e;
 }
 .btn-danger {
-	color: #ff0062;
+	color: #ff00eb;
 	background-color: rgba(0,0,0,1);
-    border-color: #ff0062;
+    border-color: #ff00eb;
+}
+.btn-danger:hover {
+	color: #fff;
+    background-color: #ff00eb;
+    border-color: #ff00eb;
 }
 .btn-dark{
-	color: #ffed00;
+	color: #ff6e40;
 	background-color: rgba(0,0,0,1);
-    border-color: #ffed00;
+    border-color: #ff6e40;
+}
+.btn-dark:hover {
+    color: #fff;
+    background-color: #ff6e40;
+    border-color: #ff6e40;
 }
 @media screen and  (orientation: portrait){
 	:root{
